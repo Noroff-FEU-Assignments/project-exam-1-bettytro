@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <header>
+        <nav class="w100 wrap">
+            <div class="flex just-between align-center">
+                <div class="flex align-center just-center gap1">
+                    <a href="index.html" title="Travelers Blog - Back to the homepage" class="logo">Travelers blog</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
+                    </svg>
+                </div>
+                <a href="javascript:;" role="button" id="menu-button"><svg class="burger"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg></a>
+            </div>
+            <div id="menu-open">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blogsite.html">Blogsite</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="wrap light article">
+            <h1>Contact me!</h1>
+            <div class="flex just-center gap2 mob-col">
+
+                <div class="flex1">
+                    <h2>I love to get to know new people!</h2>
+                    <p>If you ever see me on the streets, you are more than welcome to say hello :)</p>
+                    <strong>By letters to my P.O. box:</strong>
+                    <p>123 Fake Box Land, 129921 Fakecity</p>
+                    <strong>By e-mail:</strong>
+                    <a href="mailto:elisabeth.510@hotmail.com">elisabeth.510@hotmail.com</a>
+                    <p>Or fill out my form to the right, and I will get in touch with you as soon as possible.</p>
+                </div>
+            <div class="flex1">
+                <form id="kontaktskjema" action="thankyou.html" class="aboutbox" novalidate>
+                    <h2>Contact form</h2>
+                    <label for="name">Full name: * </label>
+                    <input type="text" id="name" name="name" minlength="5" required>
+                    <div id="nameerror"></div>
+                    <label for="email">Email: *</label>
+                    <input type="email" id="email" name="email" required>
+                    <div id="emailerror"></div>
+                    <label for="subject">Subject: *</label>
+                    <input type="text" id="subject" name="subject" minlength="15" required>
+                    <div id="subjecterror"></div>
+                    <label for="message">Message *</label>
+                    <textarea name="message" id="message" required minlength="25"></textarea>
+                    <div id="messageerror"></div>
+                    <input type="submit" value="Contact me" id="submit" class="contact-button">
+                </form>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex column gap1 wrap just-center">
+            <strong>Wanna know more about me?</strong>
+            <a href="contact.html">Contact me here</a>
+            <a href="about.html">Read more about me</a>
+        </div>
+    </footer>
+    
+    <script async src="js/menu.js"></script>
+    <script src="js/contact.js"></script>
+    </body>
+    
+    </html>

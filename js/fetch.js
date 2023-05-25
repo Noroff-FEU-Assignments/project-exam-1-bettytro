@@ -12,7 +12,7 @@ fetch(API_URL)
                 html = `
             <a class="slide" href="blogpost.html?id=${post.id}">
             <div class="box">
-            <img src="${post._embedded['wp:featuredmedia']['0'].source_url}" width="240" alt="">
+            <img src="${post._embedded['wp:featuredmedia']['0'].media_details.sizes.large.source_url}" width="240" alt="">
             <h3>${post.title.rendered}</h3>
             <p>${post.excerpt.rendered}</p>
             </div>
@@ -22,7 +22,7 @@ fetch(API_URL)
                 html = `
             <a class="slide hide" href="blogpost.html?id=${post.id}">
             <div class="box">
-            <img src="${post._embedded['wp:featuredmedia']['0'].source_url}" width="240" alt="">
+            <img src="${post._embedded['wp:featuredmedia']['0'].media_details.sizes.large.source_url}" width="240" alt="">
             <h3>${post.title.rendered}</h3>
             <p>${post.excerpt.rendered}</p>
             </div>

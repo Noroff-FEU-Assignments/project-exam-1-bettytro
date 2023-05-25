@@ -60,16 +60,16 @@
                     <h2>Contact form</h2>
                     <label for="name">Full name: * </label>
                     <input type="text" id="name" name="name" minlength="5" required>
-                    <div id="nameerror"></div>
+                    <div id="nameerror" role="status"></div>
                     <label for="email">Email: *</label>
                     <input type="email" id="email" name="email" required>
-                    <div id="emailerror"></div>
+                    <div id="emailerror" role="status"></div>
                     <label for="subject">Subject: *</label>
                     <input type="text" id="subject" name="subject" minlength="15" required>
-                    <div id="subjecterror"></div>
+                    <div id="subjecterror" role="status"></div>
                     <label for="message">Message *</label>
                     <textarea name="message" id="message" required minlength="25"></textarea>
-                    <div id="messageerror"></div>
+                    <div id="messageerror" role="status"></div>
                     <input type="submit" value="Contact me" id="submit" class="contact-button">
                 </form>
             </div>

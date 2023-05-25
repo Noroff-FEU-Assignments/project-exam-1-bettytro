@@ -4,7 +4,7 @@ const img = document.getElementById('image');
 const modal = document.getElementById('modal');
 const modalimg = document.getElementById('modalimg');
 
-API_URL = "http://exam1.test/wp-json/wp/v2/posts/"
+API_URL = "https://api.minnanogeipenn.no/wp-json/wp/v2/posts/"
 const queryString = window.location.search;
 // console.log(queryString);
 const urlParams = new URLSearchParams(queryString);

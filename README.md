@@ -8,7 +8,7 @@
 
 ## Description
 
-On this assignment I chose to focus more on the code then the design. It was the exam and I really wanted to show that I can manage all the things we have learned this year. The design was universal accessibility, wich has been an important thing for me this year since they change the roles in Norway for it. We had to fetch the content for our website to be stored on a WordPress installation used as a Headless CMS. And make an easy to navigate, good looking website with HTML, CSS and JavaScript.  
+On this assignment I chose to focus more on the code then the design. It was the exam and I really wanted to show that I can manage all the things we have learned this year. The design was made with universal design and accessibility in mind, which has been an important thing for me this year since they changed the rules in Norway this year. We had to fetch the content for our website to be stored on a WordPress installation used as a Headless CMS, and make an easy to navigate, good looking website with HTML, CSS and JavaScript.  
 
 Under is some of the requirements we had to meet
 
@@ -33,7 +33,7 @@ To clone this repo you run the command that is listed under here. From there you
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:bettytro/SemesterProject.git
+git clone git@github.com:Noroff-FEU-Assignments/project-exam-1-bettytro.git
 ```
 
 
@@ -53,22 +53,3 @@ If you want to get in touch, please send me a message on Facebook or Discord
 [My Facebook](https://www.facebook.com/elisabeth.trondsen.14/)
 
 [My Discord](discordapp.com/users/yourID1009006668291518517)
- 
-## Level 1 Process
-
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
-
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
-
